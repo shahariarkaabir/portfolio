@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">Stylized portrait placeholder with initials SK</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#64d2ff"/>
+      <stop offset="100%" stop-color="#8ee3ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bg)"/>
+  <circle cx="200" cy="150" r="76" fill="url(#accent)" opacity="0.9"/>
+  <path d="M124 332c18-52 58-78 76-78s58 26 76 78" fill="url(#accent)" opacity="0.88"/>
+  <text x="200" y="220" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="#06131d">SK</text>
+</svg>

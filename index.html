@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!-- এই লাইনটা বলে দেয় ব্রাউজারকে যে এটা একটা HTML5 ডকুমেন্ট -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- মোবাইলে ঠিকভাবে দেখানোর জন্য এই লাইনটা জরুরি -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shahariar Kabir | SQA Engineer</title>
+
+  <!-- আমাদের CSS ফাইল এখানে link করব (পরের ধাপে বানাব) -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header>
+    <nav>
+      <div class="logo">Shahariar</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="profile-photo-wrap">
+        <img src="assets/original-003.png" alt="Shahariar Kabir" class="profile-photo" onerror="this.onerror=null; this.src='assets/profile.svg';" />
+      </div>
+      <div class="hero-text">
+        <h1>Shahariar Kabir</h1>
+        <h2>SQA Engineer</h2>
+        <p>
+          Ensuring software quality through manual &amp; automation testing
+          across e-commerce, Shopify, and OTA platforms.
+        </p>
+        <div class="hero-buttons">
+          <a href="assets/Shahariar_Kabir_SQA.pdf" class="btn" id="download-cv-btn">Download CV</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT SECTION ============ -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      SQA Engineer with 1.5+ years of experience in manual and
+      automation testing across e-commerce, Shopify plugins, monitoring
+      applications, and OTA platforms. Skilled in the full STLC within
+      Agile teams, with expertise in Selenium (Java), Cucumber (BDD),
+      Postman, JMeter, and CI/CD pipelines via GitHub Actions.
+    </p>
+  </section>
+
+  <!-- ============ SKILLS SECTION ============ -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Testing Strategy</h3>
+        <ul class="skill-tags">
+          <li>Test Planning</li>
+          <li>Test Case Design</li>
+          <li>Test Execution</li>
+          <li>Root Cause Analysis</li>
+          <li>Bug Reporting</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Automation</h3>
+        <ul class="skill-tags">
+          <li>Selenium WebDriver (Java)</li>
+          <li>Cucumber (BDD)</li>
+          <li>TestNG</li>
+          <li>Page Object Model</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>API &amp; Performance</h3>
+        <ul class="skill-tags">
+          <li>Postman</li>
+          <li>Newman</li>
+          <li>Apache JMeter</li>
+          <li>OWASP ZAP</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Tools &amp; CI/CD</h3>
+        <ul class="skill-tags">
+          <li>Jira</li>
+          <li>Git</li>
+          <li>GitHub Actions</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE SECTION ============ -->
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="job">
+      <h3>Junior SQA Engineer — Akij iBOS</h3>
+      <span class="job-date">Sep 2024 – Present</span>
+      <ul>
+        <li>Design and execute test plans and test cases for web, desktop, and mobile applications.</li>
+        <li>Build and maintain UI automation using Selenium, Java, and Cucumber (BDD) with Page Object Model.</li>
+        <li>Develop API automation suites in Postman and Newman for endpoint and integration validation.</li>
+        <li>Integrate automated tests into GitHub Actions CI/CD pipelines for continuous execution.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h3>Junior Executive — QA, Star Tech &amp; Engineering Ltd.</h3>
+      <span class="job-date">Aug 2023 – Nov 2023</span>
+      <ul>
+        <li>Executed test cases for core e-commerce flows: search, cart, checkout, and orders.</li>
+        <li>Performed functional and regression testing to validate releases.</li>
+        <li>Reported defects with reproduction steps and severity classification.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS SECTION ============ -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>UI Automation Framework</h3>
+        <p>Web UI automation suite using Selenium WebDriver with Java, built on the Page Object Model.</p>
+        <div class="tags"><span>Selenium</span><span>Java</span><span>POM</span></div>
+        <a href="https://github.com/shahariarkaabir/Automation-Testing" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <h3>API Testing with Postman &amp; Newman</h3>
+        <p>REST API test collections in Postman with automated execution and HTML reports via Newman.</p>
+        <div class="tags"><span>Postman</span><span>Newman</span><span>API</span></div>
+        <a href="https://github.com/shahariarkaabir/student_API_Automaiton" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Performance Testing with JMeter</h3>
+        <p>Load and stress test plans in JMeter to measure response times, throughput, and bottlenecks.</p>
+        <div class="tags"><span>JMeter</span><span>Performance</span></div>
+        <a href="https://github.com/shahariarkaabir/JMeter" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Test Case Documentation</h3>
+        <p>Documented test cases for web and mobile applications covering positive, negative, and edge cases.</p>
+        <div class="tags"><span>Documentation</span><span>Test Design</span></div>
+        <a href="https://github.com/shahariarkaabir/Test-Cases" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT SECTION ============ -->
+  <section id="contact">
+    <div class="contact-shell">
+      <div class="contact-info">
+        <h2>Contact</h2>
+        <p>Email: shahariarkabir.cse@gmail.com</p>
+        <p>Phone: +8801990935788</p>
+        <p>
+          <a href="https://github.com/shahariarkaabir" target="_blank">GitHub</a> |
+          <a href="https://www.linkedin.com/in/shahariarkaabir/" target="_blank">LinkedIn</a>
+        </p>
+      </div>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <label for="contact-email">Your Email</label>
+        <input type="email" id="contact-email" name="email" placeholder="you@example.com" required />
+
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+        <p id="contact-status" class="contact-status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 AL Shahariar Kabir Tuhin</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <!-- আমাদের JS ফাইল একদম শেষে link করব -->
+  <script src="script.js"></script>
+</body>
+</html>
